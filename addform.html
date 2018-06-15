@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+
+<html lang="en-us" >
+<head>
+<title>Add self learning | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css" />
+
+
+<script type="text/javascript" src="/admin/jsi18n/"></script>
+<script type="text/javascript" src="/static/admin/js/core.js"></script>
+<script type="text/javascript" src="/static/admin/js/vendor/jquery/jquery.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/static/admin/js/actions.js"></script>
+<script type="text/javascript" src="/static/admin/js/urlify.js"></script>
+<script type="text/javascript" src="/static/admin/js/prepopulate.js"></script>
+<script type="text/javascript" src="/static/admin/js/vendor/xregexp/xregexp.js"></script>
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" app-django_backend model-selflearning change-form"
+  data-admin-utc-offset="19800">
+
+<!-- Container -->
+<div id="container">
+
+
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+
+<h1 id="site-name"><a href="/admin/">Django administration</a></h1>
+
+        </div>
+
+
+        <div id="user-tools">
+
+                Welcome,
+                <strong>webbpitindia</strong>.
+
+
+
+                    <a href="/">View site</a> /
+
+
+
+
+
+
+                <a href="/admin/password_change/">Change password</a> /
+
+                <a href="/admin/logout/">Log out</a>
+
+        </div>
+
+
+
+    </div>
+    <!-- END Header -->
+
+<div class="breadcrumbs">
+<a href="/admin/">Home</a>
+&rsaquo; <a href="/admin/django_backend/">Django_Backend</a>
+&rsaquo; <a href="/admin/django_backend/selflearning/">Self learnings</a>
+&rsaquo; Add self learning
+</div>
+
+
+
+
+
+
+
+    <!-- Content -->
+    <div id="content" class="colM">
+
+        <h1>Add self learning</h1>
+        <div id="content-main">
+
+
+
+<form enctype="multipart/form-data" action="" method="post" id="selflearning_form" novalidate><input type='hidden' name='csrfmiddlewaretoken' value='ItL889za1qi70KBohRtXdQ5IZcb60yAsN4YylyXmTSURWvGiJBUhg7q8mCwrZFFi' />
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+
+
+
+        <div class="form-row field-branch">
+
+
+                <div>
+
+
+                        <label class="required" for="id_branch">Branch:</label>
+
+                            <div class="related-widget-wrapper">
+    <select name="branch" required id="id_branch">
+  <option value="" selected>---------</option>
+
+  <option value="1">CSE</option>
+
+  <option value="2">ECE</option>
+
+  <option value="3">IT</option>
+
+  <option value="4">EEE</option>
+
+  <option value="5">BBA</option>
+
+  <option value="6">MBA</option>
+
+  <option value="7">AP</option>
+
+  <option value="8">AM</option>
+
+  <option value="9">AC</option>
+
+  <option value="10">MP</option>
+
+  <option value="13">ME</option>
+
+  <option value="14">HU</option>
+
+  <option value="12">PL</option>
+
+</select>
+
+        <a class="related-widget-wrapper-link change-related" id="change_id_branch"
+            data-href-template="/admin/django_backend/branch/__fk__/change/?_to_field=id&amp;_popup=1"
+            title="Change selected branch"><img src="/static/admin/img/icon-changelink.svg" alt="Change"/></a><a class="related-widget-wrapper-link add-related" id="add_id_branch"
+            href="/admin/django_backend/branch/add/?_to_field=id&amp;_popup=1"
+            title="Add another branch"><img src="/static/admin/img/icon-addlink.svg" alt="Add"/></a>
+
+</div>
+
+
+
+                </div>
+
+        </div>
+
+        <div class="form-row field-SLLecturePlan">
+
+
+                <div>
+
+
+                        <label class="required" for="id_SLLecturePlan">SLLecturePlan:</label>
+
+                            <input type="text" name="SLLecturePlan" id="id_SLLecturePlan" required class="vTextField" maxlength="300" />
+
+
+
+                </div>
+
+        </div>
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+<input type="submit" value="Save" class="default" name="_save" />
+
+
+<input type="submit" value="Save and add another" name="_addanother" />
+<input type="submit" value="Save and continue editing" name="_continue" />
+</div>
+
+
+
+    <script type="text/javascript"
+            id="django-admin-form-add-constants"
+            src="/static/admin/js/change_form.js"
+
+                data-model-name="selflearning"
+            >
+    </script>
+
+
+
+
+<script type="text/javascript"
+        id="django-admin-prepopulated-fields-constants"
+        src="/static/admin/js/prepopulate_init.js"
+        data-prepopulated-fields="[]">
+</script>
+
+
+</div>
+</form></div>
+
+
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>
